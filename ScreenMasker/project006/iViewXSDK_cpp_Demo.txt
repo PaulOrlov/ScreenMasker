@@ -1,0 +1,2 @@
+0.18931	iViewX API ApiLogger - Status: 1
+0.430038	Connection to iView has been established

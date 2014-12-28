@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPaneEyetrackerWindows" prefHeight="120.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <!--<AnchorPane id="AnchorPaneEyetrackerWindows" prefHeight="92.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screenmaskerlancherfx.EmptyWindowController">-->
+   <children>
+      <HBox layoutX="9.0" layoutY="93.0" prefHeight="100.0" prefWidth="588.0" spacing="15.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="590.0" spacing="5.0">
+               <children>
+                  <Label prefHeight="23.0" prefWidth="254.0" text="Eye tracker windows">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" />
+                     </VBox.margin></Label>
+                  <CheckBox fx:id="isEyeWindowShow" mnemonicParsing="false" text="Show user eyes" />
+                  <CheckBox fx:id="isCalibrate" mnemonicParsing="false" text="Calibrate" />
+                  <CheckBox fx:id="isEyePositionWindowShow" mnemonicParsing="false" text="Show eyes position" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+    
+</AnchorPane>

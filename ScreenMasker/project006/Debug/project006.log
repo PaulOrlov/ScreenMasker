@@ -1,0 +1,36 @@
+﻿Build started 27.12.2014 16:17:21.
+     1>Project "E:\OrlovPA\cpp\ScreenMasker\project006\project006.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ScreenMasker.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ScreenMasker.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt screenmasker.cpp
+         screenmasker.cpp
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(84): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\wchar.h(838) : see declaration of '_wfopen'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(97): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(117): warning C4101: 'errMsg' : unreferenced local variable
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(152): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(271): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(515) : see declaration of 'mbstowcs'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(279): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(280): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(294): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(332): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(554) : see declaration of 'wcstombs'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(335): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(554) : see declaration of 'wcstombs'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(538): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>e:\orlovpa\cpp\screenmasker\project006\screenmasker.cpp(310): warning C4101: 'buffer' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OrlovPA\cpp\ScreenMasker\Debug\ScreenMasker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cuda.lib cudart.lib iViewXAPI.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OrlovPA\cpp\ScreenMasker\Debug\ScreenMasker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OrlovPA\cpp\ScreenMasker\Debug\ScreenMasker.lib" /MACHINE:X86 Debug\gpuProcessor.cu.obj
+         Debug\screenmasker.obj
+         Debug\stdafx.obj
+         project006.vcxproj -> E:\OrlovPA\cpp\ScreenMasker\Debug\ScreenMasker.exe
+     1>Done Building Project "E:\OrlovPA\cpp\ScreenMasker\project006\project006.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.88

@@ -1,0 +1,3 @@
+0.0537137	iViewX API ApiLogger - Status: 1
+1.07408	No response from iView. Please check the Port settings
+1.08466	End of Log file
